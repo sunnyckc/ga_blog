@@ -1,0 +1,11 @@
+<h1> wooooeee</h1>
+
+<div class="site-nav">
+
+  <h2>testing</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li><a ref="{{ post.url }}">{{post.title}}</a></li>
+    {% endfor %}
+  </ul>
+</div>
